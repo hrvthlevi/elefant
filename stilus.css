@@ -1,0 +1,42 @@
+body {
+  background-image: url(forras/hatterem3.jpg);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: #272f32;
+}
+#tarolo {
+ width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    border: 4px double #272f32; 
+}
+h1{
+    border-bottom:#272f32 solid 1pt;
+}
+h1,
+h2 {
+  font-size: 20pt;
+  font-family: "Showcard Gothic", Arial, sans-serif;
+  letter-spacing: 2pt;
+  text-transform: uppercase;
+}
+
+p {
+  text-align: justify;
+}
+img {
+  border: 1px solid gray;
+  padding: 2px;
+  margin: 0 10px 10px 10px;
+}
+.bal {
+  float: left;
+}
+.jobb {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
