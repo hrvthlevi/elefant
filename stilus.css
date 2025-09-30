@@ -5,14 +5,14 @@ body {
   color: #272f32;
 }
 #tarolo {
- width: 600px;
-    margin: auto;
-    background-color: white;
-    padding: 10px;
-    border: 4px double #272f32; 
+  width: 600px;
+  margin: auto;
+  background-color: white;
+  padding: 10px;
+  border: 4px double #272f32;
 }
-h1{
-    border-bottom:#272f32 solid 1pt;
+h1 {
+  border-bottom: #272f32 solid 1pt;
 }
 h1,
 h2 {
@@ -40,3 +40,17 @@ img {
 .clear {
   clear: both;
 }
+.menu a {
+  color: #272f32;
+  text-decoration: none;
+  padding: 6px 12px;
+  border: 2px solid #ff5e00;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  background: #ff5e00;
+  color: #fff;
+}
+
